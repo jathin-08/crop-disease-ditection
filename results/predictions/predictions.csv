@@ -1,0 +1,84 @@
+Timestamp,Source_File,Status,Detected_Disease,Confidence,Severity,Bounding_Box,Detections_Count
+2026-09-29 15:25:22,tomato_bacterial_spot_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:26:17,tomato_bacterial_spot_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:27:51,tomato_bacterial_spot_016.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-09-29 15:28:28,tomato_bacterial_spot_016.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-09-29 15:28:28,tomato_bacterial_spot_017.jpg,DETECTED,Tomato Mosaic Virus (ToMV),0.2336,Critical,"[20, 33, 611, 637]",1
+2026-09-29 15:28:28,tomato_bacterial_spot_018.jpg,DETECTED,Tomato Mosaic Virus (ToMV),0.1839,Critical,"[6, 0, 624, 638]",1
+2026-09-29 15:28:28,tomato_early_blight_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_early_blight_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_early_blight_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_healthy_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_healthy_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_healthy_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_late_blight_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_late_blight_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_late_blight_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_leaf_mold_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_leaf_mold_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_leaf_mold_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_mosaic_virus_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_mosaic_virus_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_mosaic_virus_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:28,tomato_septoria_leaf_spot_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_septoria_leaf_spot_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_septoria_leaf_spot_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_spider_mites_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_spider_mites_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_spider_mites_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_target_spot_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_target_spot_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_target_spot_018.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_yellow_leaf_curl_virus_016.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_yellow_leaf_curl_virus_017.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:28:29,tomato_yellow_leaf_curl_virus_018.jpg,DETECTED,Tomato Early Blight,0.2016,High,"[3, 3, 632, 635]",1
+2026-09-29 15:51:09,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-09-29 15:52:29,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-09-29 15:52:29,tomato_early_blight_sample.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:52:29,tomato_healthy_sample.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:52:29,tomato_late_blight_sample.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:52:30,tomato_mosaic_virus_sample.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 15:52:30,tomato_yellow_leaf_curl_sample.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-09-29 16:02:18,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-01 13:15:28,temp_web_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 13:15:58,temp_web_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 13:16:16,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-01 13:17:59,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.2971,Moderate,"[0, 0, 279, 185]",1
+2026-10-01 14:02:52,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-01 14:05:56,temp_web_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 14:06:12,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-01 14:08:17,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 14:09:03,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 14:09:18,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 14:09:27,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-01 14:10:20,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],0
+2026-10-01 14:10:58,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.1657,Moderate,"[0, 0, 707, 466]",1
+2026-10-01 14:13:32,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.1657,Moderate,"[0, 0, 707, 466]",1
+2026-10-01 14:13:52,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",1
+2026-10-05 22:12:00,tomato_bacterial_spot_013.jpg,DETECTED,Tomato Bacterial Spot,0.6554,High,"[4, 0, 639, 640]",0.9506,1
+2026-10-05 22:12:33,tomato_bacterial_spot_013.jpg,DETECTED,Tomato Bacterial Spot,0.6554,High,"[4, 0, 639, 640]",0.9506,1
+2026-10-05 22:12:52,test_blank.jpg,NO_DISEASE,None,0.0000,None,[],N/A,0
+2026-10-06 09:10:08,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",N/A,1
+2026-10-06 09:10:34,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],N/A,0
+2026-10-06 09:10:50,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],N/A,0
+2026-10-06 09:11:24,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],N/A,0
+2026-10-06 09:11:34,temp_upload.jpg,NO_DISEASE,None,0.0000,None,[],N/A,0
+2026-10-06 09:12:31,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,1
+2026-10-06 09:12:47,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,1
+2026-10-06 09:32:26,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",N/A,1
+2026-10-06 09:40:47,temp_upload.jpg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,1
+2026-10-06 10:33:19,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",0.8631,1.0000,1.0000,1.0000,1
+2026-10-06 10:34:18,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-06 10:36:29,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",0.8631,1.0000,1.0000,1.0000,1
+2026-10-06 10:38:30,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-06 10:39:44,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-06 13:38:52,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-07 09:10:55,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",0.8631,1.0000,1.0000,1.0000,1
+2026-10-07 09:17:43,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-08 10:25:54,2images (1).jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1951,Moderate,"[1, 0, 682, 449]",N/A,0.0323,0.9355,0.0624,1
+2026-10-08 10:26:32,tomato_bacterial_spot_sample.jpg,DETECTED,Tomato Bacterial Spot,0.1713,High,"[12, 3, 616, 640]",0.8631,1.0000,1.0000,1.0000,1
+2026-10-08 10:29:13,images.jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1701,Moderate,"[0, 0, 675, 450]",N/A,0.0323,0.9355,0.0624,1
+2026-10-08 10:30:36,download (1).jpeg,NO_DISEASE,None,0.0000,None,[],N/A,N/A,N/A,N/A,0
+2026-10-08 10:32:50,images (1).jpeg,NO_DISEASE,None,0.0000,None,[],N/A,N/A,N/A,N/A,0
+2026-10-08 10:33:31,images.jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1701,Moderate,"[0, 0, 675, 450]",N/A,0.0323,0.9355,0.0624,1
+2026-10-08 10:35:06,images.jpeg,DETECTED,Tomato Septoria Leaf Spot,0.1701,Moderate,"[0, 0, 675, 450]",N/A,0.0323,0.9355,0.0624,1

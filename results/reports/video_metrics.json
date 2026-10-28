@@ -1,0 +1,15 @@
+{
+    "video_name": "tomato_sample_video.mp4",
+    "frames": 75,
+    "processed_frames": 38,
+    "detections": 0,
+    "tracks": 0,
+    "mean_iou": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "map50": 0.3595,
+    "map50_95": 0.2944,
+    "has_ground_truth": true,
+    "generated_at": "2026-10-08T10:33:07.576786"
+}

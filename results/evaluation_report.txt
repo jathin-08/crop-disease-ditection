@@ -1,0 +1,48 @@
+===========================================================================
+ TOMATO LEAF DISEASE AI - COMPREHENSIVE MODEL EVALUATION REPORT
+===========================================================================
+Evaluation Timestamp : 2026-10-06 10:22:38
+
+MODEL INFORMATION
+  Model Architecture : YOLO26 (Transfer Learning)
+  Weights Evaluated  : best.pt
+  Primary Task       : YOLO26 Object Detection (Localization + Classification)
+
+DATASET INFORMATION
+  Dataset Directory  : dataset/
+  Number of Classes  : 10
+  Training Images    : 0
+  Validation Images  : 0
+  Test Images        : 30
+---------------------------------------------------------------------------
+OVERALL PERFORMANCE (ACTUAL MEASURED VALUES)
+  Precision (P)      : 0.0323 (3.23%)
+  Recall (R)         : 0.9355 (93.55%)
+  F1-Score           : 0.0624 (6.24%)
+  mAP @ 0.50         : 0.3595 (35.95%)
+  mAP @ 0.50:0.95    : 0.2944 (29.44%)
+  Mean IoU           : 0.8570 (85.70%)
+  IoU >= 0.50        : 96.67% detections
+  IoU >= 0.75        : 90.00% detections
+  Min / Max IoU      : 0.2359 / 0.9875
+  Evaluated Detections: 30
+---------------------------------------------------------------------------
+PER-CLASS PERFORMANCE BREAKDOWN
+  Disease Name                   | P      | R      | F1     | AP50   | AP95   | Mean IoU  | IoU>=.50
+  ----------------------------------------------------------------------------------------
+  tomato_healthy                 | 1.000  | 0.000  | 0.000  | 0.426  | 0.368  | 0.877     | 100.0%
+  tomato_bacterial_spot          | 0.316  | 0.667  | 0.429  | 0.665  | 0.599  | 0.888     | 100.0%
+  tomato_early_blight            | 0.000  | 0.000  | 0.000  | 0.149  | 0.105  | 0.926     | 100.0%
+  tomato_late_blight             | 1.000  | 0.000  | 0.000  | 0.358  | 0.297  | 0.887     | 100.0%
+  tomato_leaf_mold               | 1.000  | 0.000  | 0.000  | 0.407  | 0.368  | 0.782     | 75.0%
+  tomato_septoria_leaf_spot      | 0.145  | 0.667  | 0.238  | 0.256  | 0.213  | 0.904     | 100.0%
+  tomato_spider_mites            | 1.000  | 0.000  | 0.000  | 0.240  | 0.183  | 0.860     | 100.0%
+  tomato_target_spot             | 0.000  | 0.000  | 0.000  | 0.152  | 0.117  | 0.879     | 100.0%
+  tomato_mosaic_virus            | 0.256  | 0.667  | 0.370  | 0.610  | 0.397  | 0.751     | 100.0%
+  tomato_yellow_leaf_curl_virus  | 0.000  | 0.000  | 0.000  | 0.332  | 0.298  | 0.864     | 100.0%
+---------------------------------------------------------------------------
+MODEL READINESS ASSESSMENT
+  Current Model Status : NOT READY
+  Readiness Criteria   : Validation mAP@50 >= 40.0%
+  Achieved mAP@50      : 35.95%
+===========================================================================

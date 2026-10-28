@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env
+
+# YOLO Checkpoints & Large Weights
+*.pt
+!models/pretrained/yolo26n.pt
+!models/trained/best.pt
+!models/best.pt
+runs/
+.cache/
+
+# Dataset Images & Labels (track directory structure via .gitkeep)
+dataset/images/train/*
+dataset/images/val/*
+dataset/images/test/*
+dataset/labels/train/*
+dataset/labels/val/*
+dataset/labels/test/*
+!dataset/images/train/.gitkeep
+!dataset/images/val/.gitkeep
+!dataset/images/test/.gitkeep
+!dataset/labels/train/.gitkeep
+!dataset/labels/val/.gitkeep
+!dataset/labels/test/.gitkeep
+
+# Sample inputs & outputs
+videos/input/*
+videos/output/*
+images/input/*
+images/output/*
+!videos/input/.gitkeep
+!videos/output/.gitkeep
+!images/input/.gitkeep
+!images/output/.gitkeep
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

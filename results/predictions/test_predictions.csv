@@ -1,0 +1,6 @@
+Frame Number,Timestamp,Track ID,Disease,Confidence,X1,Y1,X2,Y2,IoU
+1,00:00.05,#001,Tomato Bacterial Spot,0.1596,13,3,613,640,N/A
+16,00:00.80,#002,Tomato Mosaic Virus (ToMV),0.2387,20,33,609,636,N/A
+31,00:01.55,#002,Tomato Mosaic Virus (ToMV),0.2090,7,0,622,638,N/A
+36,00:01.80,#002,Tomato Mosaic Virus (ToMV),0.1890,8,0,624,638,N/A
+41,00:02.05,#002,Tomato Mosaic Virus (ToMV),0.1552,13,0,626,639,N/A

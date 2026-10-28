@@ -1,0 +1,16 @@
+===========================================================================
+ ZERO-METRIC AUTOMATIC DIAGNOSTICS REPORT
+===========================================================================
+Model Evaluated : C:\Users\Siddhartha\Downloads\ML_ project\models\trained\best.pt
+Dataset Config  : C:\Users\Siddhartha\Downloads\ML_ project\dataset\data.yaml
+---------------------------------------------------------------------------
+DIAGNOSTIC CHECKS EXECUTED:
+  [1] Class count configured: nc=10
+  [2] Validation images found: 30 in C:\Users\Siddhartha\Downloads\ML_ project\dataset\images\val
+  [3] Validation label files: 30 in C:\Users\Siddhartha\Downloads\ML_ project\dataset\labels\val
+  [4] Model Task: detect (YOLO26)
+  [5] Likely causes:
+      - Confidence threshold too high for early-stage training.
+      - Model under-trained (epochs too low or learning rate too low).
+      - Annotation format or bounding box mismatch.
+===========================================================================

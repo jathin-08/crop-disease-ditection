@@ -1,0 +1,22 @@
+# ==============================================================================
+# Tomato Leaf Disease Detection System - YOLO Dataset Configuration
+# ==============================================================================
+path: dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 10
+
+names:
+  0: tomato_healthy
+  1: tomato_bacterial_spot
+  2: tomato_early_blight
+  3: tomato_late_blight
+  4: tomato_leaf_mold
+  5: tomato_septoria_leaf_spot
+  6: tomato_spider_mites
+  7: tomato_target_spot
+  8: tomato_mosaic_virus
+  9: tomato_yellow_leaf_curl_virus

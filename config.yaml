@@ -1,0 +1,71 @@
+# ==============================================================================
+# Tomato Leaf Disease Detection System - Configuration
+# ==============================================================================
+
+model:
+  name: "yolo26n.pt"  # Options: yolo26n.pt, yolo26s.pt, yolo26m.pt, yolo26l.pt, yolo26x.pt
+  pretrained_dir: "models/pretrained"
+  trained_dir: "models/trained"
+  best_weights: "models/trained/best.pt"
+  last_weights: "models/trained/last.pt"
+
+training:
+  epochs: 15
+  batch: 8
+  imgsz: 640
+  patience: 10
+  workers: 2
+  learning_rate: 0.001
+  optimizer: "auto"
+  device: "auto"  # 'auto', '0', 'cpu'
+  save: true
+  plots: true
+  val: true
+  two_stage_finetune: false  # Stage 1: freeze backbone, Stage 2: full model
+
+augmentation:
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 10.0
+  translate: 0.1
+  scale: 0.5
+  shear: 2.0
+  perspective: 0.0
+  flipud: 0.2
+  fliplr: 0.5
+  mosaic: 0.5
+
+inference:
+  confidence: 0.35
+  iou: 0.50
+  imgsz: 640
+  uncertainty_threshold: 0.30
+  device: "auto"
+
+dataset:
+  path: "dataset"
+  train: "images/train"
+  val: "images/val"
+  test: "images/test"
+  data_yaml: "dataset/data.yaml"
+  report_json: "dataset/dataset_report.json"
+  min_samples_per_class: 5
+
+deployment:
+  app_name: "Tomato Leaf Disease Detection AI"
+  system_title: "Tomato Leaf Disease Detection and Identification Using Advanced YOLO26"
+  version: "2.0.0"
+  min_map50_readiness: 0.35  # Minimum validation mAP50 for READY status
+
+classes:
+  0: "tomato_healthy"
+  1: "tomato_bacterial_spot"
+  2: "tomato_early_blight"
+  3: "tomato_late_blight"
+  4: "tomato_leaf_mold"
+  5: "tomato_septoria_leaf_spot"
+  6: "tomato_spider_mites"
+  7: "tomato_target_spot"
+  8: "tomato_mosaic_virus"
+  9: "tomato_yellow_leaf_curl_virus"

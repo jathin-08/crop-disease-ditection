@@ -1,0 +1,139 @@
+{
+  "status": "PASSED",
+  "total_images": 180,
+  "split_counts": {
+    "train": 120,
+    "val": 30,
+    "test": 30
+  },
+  "num_classes": 10,
+  "class_summary": [
+    {
+      "class_id": 0,
+      "class_name": "tomato_healthy",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 14,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 20
+    },
+    {
+      "class_id": 1,
+      "class_name": "tomato_bacterial_spot",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 2,
+      "class_name": "tomato_early_blight",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 3,
+      "class_name": "tomato_late_blight",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 14,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 20
+    },
+    {
+      "class_id": 4,
+      "class_name": "tomato_leaf_mold",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 4,
+      "total_annotations": 19
+    },
+    {
+      "class_id": 5,
+      "class_name": "tomato_septoria_leaf_spot",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 6,
+      "class_name": "tomato_spider_mites",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 7,
+      "class_name": "tomato_target_spot",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 8,
+      "class_name": "tomato_mosaic_virus",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    },
+    {
+      "class_id": 9,
+      "class_name": "tomato_yellow_leaf_curl_virus",
+      "train_images": 12,
+      "val_images": 3,
+      "test_images": 3,
+      "total_images": 18,
+      "train_annotations": 12,
+      "val_annotations": 3,
+      "test_annotations": 3,
+      "total_annotations": 18
+    }
+  ],
+  "unrepresented_classes": [],
+  "duplicates": {
+    "intra_split": 0,
+    "cross_split_leakage": 0
+  },
+  "errors": [],
+  "warnings": []
+}
